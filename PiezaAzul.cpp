@@ -1,16 +1,23 @@
 #include "PiezaAzul.h"
 
 PiezaAzul::PiezaAzul(){
-	pieza1.push_back(NULL);
-	pieza1.push_back(NULL);
+	pieza1.push_back(-1);
+	pieza1.push_back(-1);
 
-	pieza2.push_back(NULL);
-	pieza2.push_back(NULL);
-	
-	pieza3.push_back(NULL);
-	pieza3.push_back(NULL);
+	pieza2.push_back(-1);
+	pieza2.push_back(-1);
+
+	pieza3.push_back(-1);
+	pieza3.push_back(-1);
+
+	pieza4.push_back(-1);
+	pieza4.push_back(-1);
 	
 }
+PiezaAzul::~PiezaAzul(){
+
+}
+
 
 void PiezaAzul::setPieza1(int x, int y){
 	pieza1.at(0)=x;

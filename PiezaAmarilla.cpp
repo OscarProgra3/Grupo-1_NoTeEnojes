@@ -1,15 +1,20 @@
 #include "PiezaAmarilla.h"
 
 PiezaAmarilla::PiezaAmarilla(){
-	pieza1.push_back(NULL);
-	pieza1.push_back(NULL);
+	pieza1.push_back(-1);
+	pieza1.push_back(-1);
 
-	pieza2.push_back(NULL);
-	pieza2.push_back(NULL);
+	pieza2.push_back(-1);
+	pieza2.push_back(-1);
+
+	pieza3.push_back(-1);
+	pieza3.push_back(-1);
+
+	pieza4.push_back(-1);
+	pieza4.push_back(-1);
 	
-	pieza3.push_back(NULL);
-	pieza3.push_back(NULL);
-	
+}
+PiezaAmarilla::~PiezaAmarilla(){
 }
 
 void PiezaAmarilla::setPieza1(int x, int y){

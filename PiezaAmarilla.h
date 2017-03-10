@@ -1,28 +1,32 @@
+#include "Pieza.h"
 #ifndef PIEZAAMARILLA_H
 #define PIEZAAMARILLA_H
 
 using namespace std;
 
-class PiezaAmarilla :public Pieza{
+class PiezaAmarilla : public Pieza
+{
 private:
 	vector<int> pieza1;
 	vector<int> pieza2;
 	vector<int> pieza3;
 	vector<int> pieza4;
-	
+
 public:
 	PiezaAmarilla();
+	~PiezaAmarilla();
 	void setPieza1(int,int);
 	vector<int> getPieza1();
 
 	void setPieza2(int,int);
 	vector<int> getPieza2();
 	
-	void setPieza2(int,int);
-	vector<int> getPieza2();
+	void setPieza3(int,int);
+	vector<int> getPieza3();
 
-	void setPieza2(int,int);
-	vector<int> getPieza2();
+	void setPieza4(int,int);
+	vector<int> getPieza4();
+
 
 	virtual bool otraPieza(bool);
 

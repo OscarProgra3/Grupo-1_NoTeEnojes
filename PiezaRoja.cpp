@@ -1,17 +1,21 @@
 #include "PiezaRoja.h"
 
 PiezaRoja::PiezaRoja(){
-	pieza1.push_back(NULL);
-	pieza1.push_back(NULL);
+	pieza1.push_back(-1);
+	pieza1.push_back(-1);
 
-	pieza2.push_back(NULL);
-	pieza2.push_back(NULL);
-	
-	pieza3.push_back(NULL);
-	pieza3.push_back(NULL);
+	pieza2.push_back(-1);
+	pieza2.push_back(-1);
+
+	pieza3.push_back(-1);
+	pieza3.push_back(-1);
+
+	pieza4.push_back(-1);
+	pieza4.push_back(-1);
 	
 }
-
+PiezaRoja::~PiezaRoja(){
+}
 void PiezaRoja::setPieza1(int x, int y){
 	pieza1.at(0)=x;
 	pieza1.at(1)=y;

@@ -1,3 +1,4 @@
+#include "Pieza.h"
 #ifndef PIEZAVERDE_H
 #define PIEZAVERDE_H
 
@@ -11,17 +12,18 @@ private:
 	vector<int> pieza4;
 public:
 	PiezaVerde();
+	~PiezaVerde();
 	void setPieza1(int,int);
 	vector<int> getPieza1();
 
 	void setPieza2(int,int);
 	vector<int> getPieza2();
 	
-	void setPieza2(int,int);
-	vector<int> getPieza2();
+	void setPieza3(int,int);
+	vector<int> getPieza3();
 
-	void setPieza2(int,int);
-	vector<int> getPieza2();
+	void setPieza4(int,int);
+	vector<int> getPieza4();
 
 	virtual bool otraPieza(bool);
 
