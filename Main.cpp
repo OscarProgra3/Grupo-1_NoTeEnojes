@@ -26,6 +26,7 @@ int tiro();
 
 int main()
 {
+
 srand (time(NULL));
 
 	int dado1=tiro();
@@ -119,4 +120,8 @@ char** inicializarMatriz(int size) {
 }
 
 
+
+
+	return 0;	
+}
 
