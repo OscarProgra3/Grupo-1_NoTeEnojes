@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class PiezaVerde : Pieza{
+class PiezaVerde :public Pieza{
 private:
 	vector<int> pieza1;
 	vector<int> pieza2;

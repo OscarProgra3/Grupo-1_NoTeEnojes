@@ -16,4 +16,5 @@ public:
 	virtual bool inTablero(int,int);
 	virtual bool zonaColor(Pieza*);
 	virtual bool Comer(Pieza*);
+	
 };

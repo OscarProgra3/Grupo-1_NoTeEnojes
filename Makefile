@@ -2,7 +2,7 @@ Main.sex:	Main.o Pieza.o PiezaAmarilla.o PiezaAzul.o PiezaRoja.o PiezaVerde.o
 	g++ Main.o Pieza.o PiezaAmarilla.o PiezaAzul.o PiezaRoja.o PiezaVerde.o -o Main
 
 Main.o:	Main.cpp Pieza.h PiezaAmarilla.h PiezaAzul.h PiezaVerde.h PiezaRoja.h
-	g++ -c Main.cpp
+	g++ -c Main.cpp -Incurses
 
 Pieza.o:	Pieza.cpp Pieza.h
 	g++ -c Pieza.cpp

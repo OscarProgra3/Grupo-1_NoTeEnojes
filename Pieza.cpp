@@ -19,3 +19,5 @@ bool Pieza::Comer(Pieza* x){
 
 }
 
+
+
